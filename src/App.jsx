@@ -3,7 +3,6 @@ import CoreConcept from './components/CoreConcept.jsx'
 import TabButton from './components/TabButton.jsx';
 import { CORE_CONCEPTS } from './data.js';
 import { EXAMPLES } from './data.js';
-import ComponentsImg from './assets/components.png';
 import { useState } from 'react';
 
 
@@ -29,7 +28,7 @@ function App() {
   }
 
   return (
-    <div>
+    <>
       <Header />
       <main>
         <section id='core-concepts'>
@@ -81,7 +80,7 @@ function App() {
         </section>
         
       </main>
-    </div>
+    </>
   );
 }
 
